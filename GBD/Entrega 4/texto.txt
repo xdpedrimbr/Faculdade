@@ -1,0 +1,7 @@
+Grupo:
+Pedro Henrique Gonçalves Teixeira - 11821BCC008
+Marillia Soares Rodrigues - 11821BCC020
+Antonio Pedro Rodrigues Santos - 11821BCC021
+
+No primeiro gráfico, que possui menor quantidade de dados, a função hash consegue distribuir melhor os valores uniformemente. Quando olhamos para o segundo gráfico, percebe-se
+que a distribuição fica menos uniforme, pois são mais valores, 1 milhão em comparação a 5 mil. E não foi usado o bucket de estouro.
