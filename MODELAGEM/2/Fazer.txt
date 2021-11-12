@@ -1,0 +1,15 @@
+Descrição detalhada da empresa e do produto
+
+Especificação dos requisitos funcionais e não funcionais
+
+Objetivos do sistema
+
+Lista de eventos completa do sistema - FEITO
+
+Diagrama de Contexto do sistema - FEITO
+
+Construir para cada evento descrito acima o diagrama das respostas do sistema ao evento, incluindo todos os fluxos de dados e todos os depósitos de dados necessários para que o evento seja realizado. - FEITO
+
+(OPCIONAL) Construir o Diagrama de Fluxo de Dados Nivelado do sistema
+
+Construir o Diagrama de Entidade e Relacionamento (DER – Modelo CHEN) - FEITO
