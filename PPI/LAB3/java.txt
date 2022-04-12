@@ -1,0 +1,47 @@
+function validacao(){
+    var regExpCPF = /[a-zA-Z]/g
+
+    var nome= document.getElementById("name").value
+    var espaco = nome.includes(" ")
+    
+    var escolhaSexo = document.getElementById("sex")
+    var sexo
+    for(var i = 0; i < escolhaSexo.length; i++){
+        if(escolhaSexo[i].checked){
+            sexo = escolhaSexo[i].value
+            break
+        }
+    }
+    
+    var qualSexo
+    if(!sexo){
+        qualSexo = null
+    }
+    else if(escolhaSexo == "sexM"){
+        qualSexo = "Masculino"
+    }else if(escolhaSexo == "sexF"){
+        qualSexo = "Feminino"
+    }
+
+    var nascimento = document.getElementById("birth").value
+
+    var cpf = document.getElementById("cpf").value
+    var cpfvalidado
+    
+    if(regExpCPF.test(cpf) || cpf.length != 11){
+        cpfvalidado = false
+    }else{
+        cpfvalidado = true
+    }
+
+    var cep = document.getElementById("cep").value
+    if(cep.lenght == 8){
+        let part = cep.substr(0, 5)
+        part += '-'
+        let part2 = cep.substr(5)
+        part += part1
+        document.getElementById("cep").value = part
+        
+    }    
+
+}

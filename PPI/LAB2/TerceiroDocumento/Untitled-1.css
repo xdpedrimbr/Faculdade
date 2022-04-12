@@ -1,0 +1,24 @@
+table, th, td {
+    border:1px solid black;
+  }
+
+.MiniPatrickImagem{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 30%;
+}
+
+.PatrickConversivel{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 30%;
+}
+
+.EdnaldoPereira{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 30%;
+}

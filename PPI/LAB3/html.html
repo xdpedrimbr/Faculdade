@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>LAB3</title>
+        <link rel="stylesheet" type="text/css" href="css.css">
+    </head>
+
+    <body>
+        <div class="QuadroGeral">
+            <h1>DADOS DO TITULAR</h1>
+            <form>
+
+                <div class="inputs">
+                    <label for="name">Nome completo: </label>
+                    <input type="text" id="name" name="name">
+                </div>
+
+                <br>
+
+                <div class="inputssexo">
+                    <label for="sex">Sexo: </label>
+                    <input type="radio" id="sexM" name="sex">
+                    <span>Masculino</span>
+                    <input type="radio" id="sexF" name="sex">
+                    <span">Feminino</span>
+                </div>
+
+                <br>
+
+                <div class="inputs">
+                    <label for="birth">Data de nascimento: </label>
+                    <input type="date" id="birth" name="birth">
+                    <span>dd/mm/aaaa</span>
+                </div>
+
+                <br>
+
+                <div class="inputs">
+                    <label for="cpf">CPF: </label>
+                    <input type="text" id="cpf" name="cpf">
+                    <span>ex(22233344411)</span>
+                </div>
+
+                <br>
+
+                <div class="inputs">
+                    <label for="cpf">CEP: </label>
+                    <input type="text" id="cep" name="cep">
+                    <a href="">Pesquisar CEP</a>
+                </div>
+                
+                <button class="botao" onclick="validacao()">Finalizar</button>
+
+            </form>
+            <span>*Campos Obrigatórios</span>
+        </div>
+        <script src="java.js"></script>
+    </body>
+</html> 
